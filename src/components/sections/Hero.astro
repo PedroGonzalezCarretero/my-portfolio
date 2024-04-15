@@ -8,7 +8,6 @@ import LinkedIn from "@/icons/LinkedIn.astro"
 import GitHub from "@/icons/GitHub.astro"
 import WorldMap from "@/icons/WorldMap.astro"
 import type { SocialIcon } from "@/types"
-import Toggle from "../Toggle.astro"
 
 const { name, label, image, location, profiles, phone, email } = basics
 const { city, region } = location
@@ -84,7 +83,6 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     <figure class="toggle-image">
       
       <img src={image} alt={name} />
-      <Toggle />
     </figure>
   </div>
 </Section>
