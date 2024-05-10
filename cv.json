@@ -2,7 +2,7 @@
 	"basics": {
 		"name": "Pedro González Carretero",
 		"label": "Full Stack Developer & Digital Communicator",
-		"image": "/yo.jpeg",
+		"image": "https://api.gcdev.tech/uploads/yo_0a96c3c255.jpeg",
 		"email": "pedrogonzalezcarr@gmail.com",
 		"phone": "+54 2314488099",
 		"url": "https://www.linkedin.com/in/pedro-gonz%C3%A1lez-carretero/",
@@ -18,13 +18,9 @@
 			{
 				"network": "LinkedIn",
 				"username": "PedroGonzalezCarretero",
-				"url": "https://www.linkedin.com/in/pedro-gonz%C3%A1lez-carretero/"
+				"url": "https://www.linkedin.com/in/pedro-gonzalez-carretero"
 			},
-			{
-				"network": "X",
-				"username": "PedroGonzalezCarretero",
-				"url": "https://x.com/PedroGonzalezCarretero"
-			},
+
 			{
 				"network": "GitHub",
 				"username": "PedroGonzalezCarretero",
@@ -41,46 +37,18 @@
 			"endDate": null,
 			"summary": "Developed a full-stack application for an engineering company from Argentina, this app organizes their clients information, included their different plants, equipments and forms. The main functionality its the automated PDF generation, based on latest registry for that equipment, with camera integration for the engineers to take pictures while filling the fields. And of course, this is all on top of a user/admins authorization implemented with iron-session. I used Strapi for the Backend, and Next.js 14 with React Server components, all together with Vercel for deployment in the frontend.",
 			"highlights": ["Zustand", "TypeScript", "JWT Auth", "PDF-lib", "Image Uploading"]
-		},
-		{
-			"name": "María Lana",
-			"position": "Digital Communicator",
-			"url": "https://www.marialana.com.ar",
-			"startDate": "2016-06-01",
-			"endDate": "2022-09-01",
-			"summary": "",
-			"highlights": ["E-Commerce", "UX/UI", ""]
-		},
-		{
-			"name": "Hubii",
-			"position": "Senior FrontEnd Developer",
-			"startDate": "2011-03-01",
-			"endDate": "2016-05-01",
-			"summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-			"highlights": ["Started the company"]
 		}
 	],
-	"volunteer": [
-		{
-			"organization": "Organization",
-			"position": "Volunteer",
-			"url": "https://organization.com/",
-			"startDate": "2012-01-01",
-			"endDate": "2013-01-01",
-			"summary": "Description…",
-			"highlights": ["Awarded 'Volunteer of the Month'"]
-		}
-	],
+
 	"education": [
 		{
-			"institution": "Universitat Oberta de Catalunya",
-			"url": "https://www.uoc.edu/portal/es/index.html",
-			"area": "Ingeniero de Software",
-			"studyType": "Bachelor",
-			"startDate": "2003-01-01",
-			"endDate": "2009-01-01",
-			"score": "4.0",
-			"courses": ["DB1101 - Basic SQL"]
+			"institution": "National University of La Plata",
+			"url": "https://unlp.edu.ar/",
+			"area": "Digital Communication",
+			"description": "Embarking on an enriching academic journey at the esteemed National University of La Plata, I dedicated myself to the profound realm of Digital Communication and Web Development. Guided by cutting-edge pedagogy, I delved into multimedia storytelling and strategic digital marketing, honing my skills in web development concurrently. With a fervent passion for innovation, I am poised to leverage my expertise to navigate the complexities of the digital landscape and drive impactful change in the ever-evolving realm of technology.",
+			"studyType": "Technicature",
+			"startDate": "Feb - 2021",
+			"endDate": "Dec - 2024"
 		}
 	],
 	"awards": [
@@ -93,10 +61,11 @@
 	],
 	"certificates": [
 		{
-			"name": "Certificate",
-			"date": "2021-11-07",
-			"issuer": "Company",
-			"url": "https://certificate.com"
+			"name": "English Certificate",
+			"result": "75/100 - Proficient",
+			"date": "2023-10-18",
+			"issuer": "EF SET",
+			"url": "https://cert.efset.org/sAYNZx"
 		}
 	],
 	"publications": [

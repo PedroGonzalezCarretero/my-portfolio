@@ -5,14 +5,13 @@ import About from "@/components/sections/About.astro"
 import Education from "@/components/sections/Education.astro"
 import Experience from "@/components/sections/Experience.astro"
 import Hero from "@/components/sections/Hero.astro"
-import Projects from "@/components/sections/Projects.astro"
 import Skills from "@/components/sections/Skills.astro"
+import Certificates from "@/components/sections/Certificates.astro"
 import KeyboardManager from "@/components/KeyboardManager.astro"
 
 import { basics } from "../../cv.json"
 const { name, label } = basics
 
-console.log(name)
 --- 
 
 <Layout title={`Portfolio from ${name} - ${label}`}>
@@ -21,8 +20,8 @@ console.log(name)
     <About />
     <Experience />
     <Education />
-    <Projects />
     <Skills />
+    <Certificates />
   </main>
 
   <KeyboardManager />

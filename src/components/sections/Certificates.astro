@@ -1,32 +1,35 @@
 ---
 import Section from "../Section.astro"
 
-import { education } from "@cv"
+import { certificates } from "@cv"
+import Language from '@/icons/Language.astro'
 ---
 
-<Section title="Education">
+<Section title="Certificates">
   <ul>
     {
-      education.map(({ institution, startDate, endDate, area, description }) => {
-        const startYear = new Date(startDate).getFullYear()
-        const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Actual"
-        const years = `${startYear} - ${endYear}`
+      certificates.map(({ issuer, name, result, url, date }) => {
+       
 
         return (
           <li>
             <article>
               <header>
-                <div>
-                  <h3>{institution} - {area}</h3>
-                </div>
+                
+                <a href={url} target="_blank">
+                  {name === 'English Certificate' && (
+                  <div>
+                    <Language />
+                    </div>
+                ) }
 
-                <time>{years}</time>
+                  <h3><span class="issuer">{issuer}</span> {name} - {result}</h3>
+                </a>
+
+                <time>{date}</time>
               </header>
 
-              <footer>
-                <p>{description}</p>
-              </footer>
+              
             </article>
           </li>
         )
@@ -58,6 +61,17 @@ import { education } from "@cv"
     font-size: 0.85rem;
     min-width: 102px;
   }
+
+  a {
+    display: flex;
+    gap: 6px;
+  }
+
+  .issuer {
+    font-weight: bold;
+  }
+
+
 
   @media (width <= 700px) {
     time {
