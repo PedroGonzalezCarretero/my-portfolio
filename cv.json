@@ -1,210 +1,252 @@
 {
-	"basics": {
-		"name": "Pedro González Carretero",
-		"label": "Full Stack Developer & Digital Communicator",
-		"image": "https://api.gcdev.tech/uploads/yo_0a96c3c255.jpeg",
-		"email": "pedrogonzalezcarr@gmail.com",
-		"phone": "+54 2314488099",
-		"url": "https://www.linkedin.com/in/pedro-gonz%C3%A1lez-carretero/",
-		"summary": "+2 years Full Stack Developer. Completed a degree on Digital Communication. Actually living on La Plata, Argentina. I've worked in a few freelance projects, like an app to automate inspection forms and organize data for a engineering company.",
-		"location": {
-			"address": "",
-			"postalCode": "1900",
-			"city": "La Plata",
-			"countryCode": "AR",
-			"region": "Argentina"
-		},
-		"profiles": [
-			{
-				"network": "LinkedIn",
-				"username": "PedroGonzalezCarretero",
-				"url": "https://www.linkedin.com/in/pedro-gonzalez-carretero"
-			},
+   "basics": {
+      "name": "Pedro González Carretero",
+      "label": "Full Stack Developer & Digital Communicator",
+      "image": "https://api.gcdev.tech/uploads/yo_0a96c3c255.jpeg",
+      "email": "pedrogonzalezcarr@gmail.com",
+      "phone": "+54 2314488099",
+      "url": "https://www.linkedin.com/in/pedro-gonz%C3%A1lez-carretero/",
+      "summary": "+2 years Full Stack Developer. Completed a degree on Digital Communication. Actually living in La Plata, Argentina. I've worked in a few freelance projects, like an app to automate inspection forms and organize data for a engineering company.",
+      "location": {
+         "address": "",
+         "postalCode": "1900",
+         "city": "La Plata",
+         "countryCode": "AR",
+         "region": "Argentina"
+      },
+      "profiles": [
+         {
+            "network": "LinkedIn",
+            "username": "PedroGonzalezCarretero",
+            "url": "https://www.linkedin.com/in/pedro-gonzalez-carretero"
+         },
 
-			{
-				"network": "GitHub",
-				"username": "PedroGonzalezCarretero",
-				"url": "https://github.com/PedroGonzalezCarretero"
-			}
-		]
-	},
-	"work": [
-		{
-			"name": "InSoIn",
-			"position": "Full Stack Developer",
-			"url": "https://twitch.tv/midudev",
-			"startDate": "2023-09-12",
-			"endDate": null,
-			"summary": "Developed a full-stack application for an engineering company from Argentina, this app organizes their clients information, included their different plants, equipments and forms. The main functionality its the automated PDF generation, based on latest registry for that equipment, with camera integration for the engineers to take pictures while filling the fields. And of course, this is all on top of a user/admins authorization implemented with iron-session. I used Strapi for the Backend, and Next.js 14 with React Server components, all together with Vercel for deployment in the frontend.",
-			"highlights": ["Zustand", "TypeScript", "JWT Auth", "PDF-lib", "Image Uploading"]
-		}
-	],
+         {
+            "network": "GitHub",
+            "username": "PedroGonzalezCarretero",
+            "url": "https://github.com/PedroGonzalezCarretero"
+         }
+      ]
+   },
+   "work": [
+      {
+         "name": "InSoIn",
+         "position": "Full Stack Developer",
+         "url": "https://twitch.tv/midudev",
+         "startDate": "2023-09-12",
+         "endDate": null,
+         "summary": "Developed a full-stack application for an engineering company from Argentina, this app organizes their clients information, included their different plants, equipments and forms. The main functionality its the automated PDF generation, based on latest registry for that equipment, with camera integration for the engineers to take pictures while filling the fields. And of course, this is all on top of a user/admins authorization implemented with iron-session. I used Strapi for the Backend, and Next.js 14 with React Server components, all together with Vercel for deployment in the frontend.",
+         "highlights": [
+            "Zustand",
+            "TypeScript",
+            "JWT Auth",
+            "PDF-lib",
+            "Image Uploading"
+         ],
+         "images": [
+            "https://utfs.io/f/262bb0a7-feec-4ec4-87f2-f5ee6cb3a9ad-6yyv5p.png",
+            "https://utfs.io/f/cbe971b1-65a9-417a-a8c6-7b5ad88c8623-6yzc7q.png",
+            "https://utfs.io/f/a841f982-584c-44ea-96f4-8c5376898605-6yyugs.png",
+            "https://utfs.io/f/a1e19772-b5dc-4b63-ace4-08c166acc500-6yyuf3.png"
+         ]
+      }
+   ],
 
-	"education": [
-		{
-			"institution": "National University of La Plata",
-			"url": "https://unlp.edu.ar/",
-			"area": "Digital Communication",
-			"description": "Beginning my academic journey at the renowned National University of La Plata, I focused on Digital Communication and Web Development. Through modern teaching methods, I explored multimedia storytelling and strategic digital marketing while also improving my web development skills. With a strong passion for innovation.",
-			"studyType": "Technicature",
-			"startDate": "Feb - 2021",
-			"endDate": "Dec - 2024"
-		}
-	],
-	"awards": [
-		{
-			"title": "Award",
-			"date": "2014-11-01",
-			"awarder": "Company",
-			"summary": "There is no spoon."
-		}
-	],
-	"certificates": [
-		{
-			"name": "English Certificate",
-			"result": "75/100 - Proficient",
-			"date": "2023-10-18",
-			"issuer": "EF SET",
-			"url": "https://cert.efset.org/sAYNZx"
-		}
-	],
-	"publications": [
-		{
-			"name": "Publication",
-			"publisher": "Company",
-			"releaseDate": "2014-10-01",
-			"url": "https://publication.com",
-			"summary": "Description…"
-		}
-	],
-	"skills": [
-		{
-			"name": "HTML",
-			"level": "Master",
-			"keywords": ["Desarrollo Web", "Frontend"]
-		},
-		{
-			"name": "CSS",
-			"level": "Master",
-			"keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
-		},
-		{
-			"name": "JavaScript",
-			"level": "Master",
-			"keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
-		},
-		{
-			"name": "Tailwind",
-			"level": "Avanzado",
-			"keywords": ["Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"]
-		},
-		{
-			"name": "TypeScript",
-			"level": "Avanzado",
-			"keywords": ["Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"]
-		},
-		{
-			"name": "Node",
-			"level": "Avanzado",
-			"keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
-		},
-		{
-			"name": "MySQL",
-			"level": "Avanzado",
-			"keywords": ["Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"]
-		},
-		{
-			"name": "Git",
-			"level": "Avanzado",
-			"keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
-		},
-		{
-			"name": "GitHub",
-			"level": "Avanzado",
-			"keywords": ["Control de Versiones", "Colaboración", "Código Fuente", "Git"]
-		},
-		{
-			"name": "Next.js",
-			"level": "Avanzado",
-			"keywords": [
-				"Desarrollo Web",
-				"Frontend",
-				"React Framework",
-				"SSR",
-				"Static Generation"
-			]
-		},
-		{
-			"name": "React",
-			"level": "Avanzado",
-			"keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
-		}
-	],
-	"languages": [
-		{
-			"language": "Spanish",
-			"fluency": "Native speaker"
-		},
-		{
-			"language": "English",
-			"fluency": "Advanced"
-		}
-	],
-	"interests": [
-		{
-			"name": "Wildlife",
-			"keywords": ["Ferrets", "Unicorns"]
-		}
-	],
-	"references": [
-		{
-			"name": "Jane Doe",
-			"reference": "Reference…"
-		}
-	],
-	"projects": [
-		{
-			"name": "mars.codes",
-			"isActive": true,
-			"description": "Historia interactiva con retos de programación para viajar a Marte",
-			"highlights": ["Elige tu propia aventura", "En desarrollo"],
-			"url": "https://mars.codes"
-		},
-		{
-			"name": "AdventJS",
-			"isActive": true,
-			"description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-			"highlights": ["+1 millón de visitas", "Multidioma", "JavaScript & TypeScript"],
-			"url": "https://adventjs.dev"
-		},
-		{
-			"name": "Codember",
-			"isActive": true,
-			"description": "Juego interactivo de programación con retos y secretos",
-			"highlights": ["+2000 usuarios activos", "Retos para cualquier lenguaje"],
-			"url": "https://codember.dev"
-		},
-		{
-			"name": "codi.link",
-			"isActive": true,
-			"description": "Playground de código HTML, CSS y JavaScript para compartir",
-			"highlights": ["100k visitas al mes", "Desarrollado por la comunidad"],
-			"url": "https://codi.link",
-			"github": "https://github.com/midudev/codi.link"
-		},
-		{
-			"name": "Pruebas Técnicas",
-			"isActive": true,
-			"description": "Lista de pruebas técnicas de empresas para practicar programación",
-			"highlights": ["100% gratuito", "+500 soluciones de la comunidad"],
-			"url": "https://pruebastecnicas.com",
-			"github": "https://github.com/midudev/pruebas-tecnicas"
-		},
-		{
-			"name": "miduConf",
-			"description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-			"highlights": ["+15k tickets repartidos", "+50k espectadores en directo"],
-			"url": "https://miduconf.com"
-		}
-	]
+   "education": [
+      {
+         "institution": "National University of La Plata",
+         "url": "https://unlp.edu.ar/",
+         "area": "Digital Communication",
+         "description": "Beginning my academic journey at the renowned National University of La Plata, I focused on Digital Communication and Web Development. Through modern teaching methods, I explored multimedia storytelling and strategic digital marketing while also improving my web development skills. With a strong passion for innovation.",
+         "studyType": "Technicature",
+         "startDate": "Feb - 2021",
+         "endDate": "Dec - 2024"
+      }
+   ],
+   "awards": [
+      {
+         "title": "Award",
+         "date": "2014-11-01",
+         "awarder": "Company",
+         "summary": "There is no spoon."
+      }
+   ],
+   "certificates": [
+      {
+         "name": "English Certificate",
+         "result": "75/100 - Proficient",
+         "date": "2023-10-18",
+         "issuer": "EF SET",
+         "url": "https://cert.efset.org/sAYNZx"
+      }
+   ],
+   "publications": [
+      {
+         "name": "Publication",
+         "publisher": "Company",
+         "releaseDate": "2014-10-01",
+         "url": "https://publication.com",
+         "summary": "Description…"
+      }
+   ],
+   "skills": [
+      {
+         "name": "HTML",
+         "level": "Master",
+         "keywords": ["Desarrollo Web", "Frontend"]
+      },
+      {
+         "name": "CSS",
+         "level": "Master",
+         "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+      },
+      {
+         "name": "JavaScript",
+         "level": "Master",
+         "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+      },
+      {
+         "name": "Tailwind",
+         "level": "Avanzado",
+         "keywords": [
+            "Desarrollo Web",
+            "Frontend",
+            "CSS Framework",
+            "Diseño Responsive"
+         ]
+      },
+      {
+         "name": "TypeScript",
+         "level": "Avanzado",
+         "keywords": [
+            "Desarrollo Web",
+            "Frontend",
+            "Backend",
+            "JavaScript Superset"
+         ]
+      },
+      {
+         "name": "Node",
+         "level": "Avanzado",
+         "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+      },
+      {
+         "name": "MySQL",
+         "level": "Avanzado",
+         "keywords": [
+            "Bases de Datos",
+            "SQL",
+            "Almacenamiento de Datos",
+            "Backend"
+         ]
+      },
+      {
+         "name": "Git",
+         "level": "Avanzado",
+         "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+      },
+      {
+         "name": "GitHub",
+         "level": "Avanzado",
+         "keywords": [
+            "Control de Versiones",
+            "Colaboración",
+            "Código Fuente",
+            "Git"
+         ]
+      },
+      {
+         "name": "Next.js",
+         "level": "Avanzado",
+         "keywords": [
+            "Desarrollo Web",
+            "Frontend",
+            "React Framework",
+            "SSR",
+            "Static Generation"
+         ]
+      },
+      {
+         "name": "React",
+         "level": "Avanzado",
+         "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+      }
+   ],
+   "languages": [
+      {
+         "language": "Spanish",
+         "fluency": "Native speaker"
+      },
+      {
+         "language": "English",
+         "fluency": "Advanced"
+      }
+   ],
+   "interests": [
+      {
+         "name": "Wildlife",
+         "keywords": ["Ferrets", "Unicorns"]
+      }
+   ],
+   "references": [
+      {
+         "name": "Jane Doe",
+         "reference": "Reference…"
+      }
+   ],
+   "projects": [
+      {
+         "name": "mars.codes",
+         "isActive": true,
+         "description": "Historia interactiva con retos de programación para viajar a Marte",
+         "highlights": ["Elige tu propia aventura", "En desarrollo"],
+         "url": "https://mars.codes"
+      },
+      {
+         "name": "AdventJS",
+         "isActive": true,
+         "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+         "highlights": [
+            "+1 millón de visitas",
+            "Multidioma",
+            "JavaScript & TypeScript"
+         ],
+         "url": "https://adventjs.dev"
+      },
+      {
+         "name": "Codember",
+         "isActive": true,
+         "description": "Juego interactivo de programación con retos y secretos",
+         "highlights": [
+            "+2000 usuarios activos",
+            "Retos para cualquier lenguaje"
+         ],
+         "url": "https://codember.dev"
+      },
+      {
+         "name": "codi.link",
+         "isActive": true,
+         "description": "Playground de código HTML, CSS y JavaScript para compartir",
+         "highlights": ["100k visitas al mes", "Desarrollado por la comunidad"],
+         "url": "https://codi.link",
+         "github": "https://github.com/midudev/codi.link"
+      },
+      {
+         "name": "Pruebas Técnicas",
+         "isActive": true,
+         "description": "Lista de pruebas técnicas de empresas para practicar programación",
+         "highlights": ["100% gratuito", "+500 soluciones de la comunidad"],
+         "url": "https://pruebastecnicas.com",
+         "github": "https://github.com/midudev/pruebas-tecnicas"
+      },
+      {
+         "name": "miduConf",
+         "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
+         "highlights": [
+            "+15k tickets repartidos",
+            "+50k espectadores en directo"
+         ],
+         "url": "https://miduconf.com"
+      }
+   ]
 }
